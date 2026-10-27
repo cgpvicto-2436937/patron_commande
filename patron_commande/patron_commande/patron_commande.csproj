@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllumerCommande.cs" />
+    <Compile Include="BaisserVolumeCommande.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ICommande.cs" />
+    <Compile Include="MonterVolumeCommande.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telecommande.cs" />
+    <Compile Include="Television.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

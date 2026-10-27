@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace patron_commande
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Client client = new Client();
+
+            client.lancer();
         }
     }
 }
