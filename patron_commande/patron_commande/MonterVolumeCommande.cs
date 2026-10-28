@@ -22,7 +22,7 @@ namespace patron_commande
 
         public bool annuler()
         {
-            return false;
+            return television.baisserVolume();
         }
 
         public string getDescription()
